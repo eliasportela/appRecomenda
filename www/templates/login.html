@@ -1,0 +1,28 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-calm">
+    <h1 class="title">Login</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()"></button>
+    </div>
+  </ion-header-bar>
+  
+  <ion-pane class="login-custom">
+    <ion-content>
+      <h1 class="logo">Recomenda <span>Aí</span></h1>
+      <h2 class="sublogo">O guia turístico do seu bolso</h2>
+      <form ng-submit="doLogin()">
+        <ion-list class="list-inset">
+          <div class="login-list">
+            <ion-item class="login-item">
+              
+              <button class="button button-block icon-left ion-person-add button-dark">Crie seu perfil. Grátis!</button>
+              
+              <button class="button button-block icon-left ion-social-facebook button-positive">Entrar com o Facebook</button>
+            
+            </ion-item>
+          </div>
+        </ion-list>
+      </form>
+    </ion-content>
+  </ion-pane>
+</ion-modal-view>

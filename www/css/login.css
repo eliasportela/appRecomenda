@@ -1,0 +1,47 @@
+
+/* Login */
+
+.login-custom {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/fundo.jpg);
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode: multiply;
+}
+
+.login-list {
+	width: 85%;
+	margin: auto;
+	margin-top: 25px;
+}
+.login-item {
+	background: none;
+	border: none;
+}
+.item-button {
+	padding: 0;
+}
+.logo {
+	font-family: 'kalam';
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+	font-weight: bold;
+	padding-right: 50px;
+}
+.logo span {
+	font-family: 'kalam';
+	font-size: 50px;
+	position: absolute;;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.sublogo {
+	font-family: 'kalam';
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 40px;
+}

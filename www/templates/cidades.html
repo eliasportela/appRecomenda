@@ -1,0 +1,20 @@
+<ion-view view-title="Recomenda Aí">
+  <ion-header-bar class="bar-subheader ">
+    <div class="item item-input item-search">
+      	<i class="icon ion-search icon-search placeholder-icon"></i>
+      	<input type="text" placeholder="Pesquisar Cidade..">
+    </div>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <ion-list class="list-custom">
+
+      <ion-item ng-repeat="cidade in cidades" href="#/app/playlists/{{cidade.id}}" class="item item-thumbnail-left item-button-right item-icon-right">
+      	<img src="img/{{cidade.img}}">
+        <h2>{{cidade.title}}</h2>
+        <span>{{cidade.estado}}</span>
+        <i class="icon ion-android-star"><span>{{cidade.nota}}</span></i>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>
