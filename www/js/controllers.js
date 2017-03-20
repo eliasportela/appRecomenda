@@ -58,7 +58,7 @@ angular.module('starter.controllers', [])
       img: 'rio.jpg'
     },
     { 
-      title: 'Florienópolis', 
+      title: 'Florianópolis', 
       id: 3,
       estado: 'Santa Catarina',
       nota: '4,1',
